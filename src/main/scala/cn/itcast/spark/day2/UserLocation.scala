@@ -15,7 +15,7 @@ object UserLocation {
     val conf = new SparkConf().setAppName("ForeachDemo").setMaster("local[2]")
     val sc = new SparkContext(conf)
     //sc.textFile("c://bs_log").map(_.split(",")).map(x => (x(0), x(1), x(2), x(3)))
-    val mbt = sc.textFile("c://bs_log").map( line => {
+    val mbt = sc.textFile("D://files//userlocal").map( line => {
       val fields = line.split(",")
       val eventType = fields(3)
       val time = fields(1)
