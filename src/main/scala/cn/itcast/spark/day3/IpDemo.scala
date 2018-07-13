@@ -48,7 +48,7 @@ object IPLocationDemo {
   }
 
   def main(args: Array[String]) {
-    val ip = "222.209.8.247"
+    val ip = "114.116.78.100"
     val ipNum = ip2Long(ip)
     println(ipNum)
     val lines = readData("D://files//ip.txt")
