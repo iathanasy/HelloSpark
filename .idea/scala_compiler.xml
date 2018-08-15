@@ -12,7 +12,7 @@
       <parameters>
         <parameter value="-make:transitive" />
         <parameter value="-dependencyfile" />
-        <parameter value="G:\Workspaces\GitHub\HelloSpark\target/.scala_dependencies" />
+        <parameter value="G:\git\HelloSpark\target/.scala_dependencies" />
       </parameters>
     </profile>
   </component>
